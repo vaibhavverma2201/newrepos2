@@ -22,7 +22,7 @@ public class DepartmentController extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		
+	
 		//get the location id from the form
 		int locId = Integer.parseInt(request.getParameter("loc"));
 		//get the list of department by using dao
