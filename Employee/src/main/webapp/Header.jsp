@@ -7,22 +7,21 @@
 <script src="bootsrap/jquery-3.0.0.min.js"></script>
 <script src="bootsrap/js/bootstrap.min.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Home</title>
+<title></title>
 </head>
 <body>
-<%@ include file="Header.jsp" %>
-
-<form action="departments">
-<div class="form-group">
-<label for="loc">LOcation Id</label>
-<input type="number" class="form-control" id="loc" name="loc">
-
-</div>
-<button type ="submit" class="btn btn-default">Get Location DEtails</button>
-
-
-</form>
-
-
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
 </body>
 </html>
